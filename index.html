@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naama Saviour School - Building Dreams Together</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Naama Saviour School</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#needs" class="nav-link">Our Needs</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Naama Saviour School</h1>
+            <p>A community school nurturing 150 bright minds in Sekyere East, Ashanti Region</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Learn About Us</a>
+                <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+            </div>
+        </div>
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="videos/asking_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Us</h2>
+                    <p>We'd love to hear from you! Reach out via email, phone, or social media.</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-details">
+                        <h3>Contact Details</h3>
+                        <p><strong>Email:</strong> <a href="mailto:info@naamaschool.com">info@naamaschool.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 234 567 890</a></p>
+                        <p><strong>Address:</strong> Sekyere East, Ashanti Region, Ghana</p>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Naama Saviour School</h2>
+                <p>A beacon of hope and education in our rural community</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Our School</h3>
+                    <p>Located in the heart of Sekyere East, Ashanti Region, Naama Saviour School serves as a cornerstone of education for our rural community, providing quality learning opportunities for children in the area.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>150 Students</h3>
+                    <p>We proudly educate 150 students across both primary and junior high school levels, nurturing young minds and preparing them for a brighter future with dedicated teachers and community support.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Community Impact</h3>
+                    <p>As a village school, we are deeply rooted in our community, fostering not just academic excellence but also character development and community values that will serve our students throughout their lives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our School Gallery</h2>
+                <p>Capturing moments of learning, growth, and community spirit</p>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="images/group_1.jpg" alt="Students Group 1">
+                        <div class="slide-caption">
+                            <h3>Our Bright Students</h3>
+                            <p>Eager minds ready to learn and explore the world of knowledge</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/group_2.jpg" alt="Students Group 2">
+                        <div class="slide-caption">
+                            <h3>Learning Together</h3>
+                            <p>Building knowledge, friendships, and memories every day</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/group_3.jpg" alt="Students Group 3">
+                        <div class="slide-caption">
+                            <h3>Future Leaders</h3>
+                            <p>Preparing today's students to become tomorrow's leaders</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/school_1.jpg" alt="School Building">
+                        <div class="slide-caption">
+                            <h3>Our School Home</h3>
+                            <p>Where dreams take shape and futures are built</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/school_2.jpg" alt="School Activities">
+                        <div class="slide-caption">
+                            <h3>Engaging Activities</h3>
+                            <p>Fostering creativity and teamwork through various school activities</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Needs Section -->
+    <section id="needs" class="needs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Vision for Growth</h2>
+                <p>Essential resources that would transform our students' learning experience</p>
+            </div>
+            <div class="needs-grid">
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Computer Lab</h3>
+                    <p>Our students dream of accessing modern technology to prepare for the digital world. A computer lab would open doors to countless opportunities and help bridge the digital divide in our rural community.</p>
+                </div>
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Library</h3>
+                    <p>Books are windows to the world. A well-stocked library would provide our students with the knowledge, inspiration, and resources they need to expand their horizons and achieve their dreams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Naama Saviour School</h3>
+                    <p>Nurturing minds and building futures in the heart of Ghana's Ashanti Region</p>
+                </div>
+                <div class="footer-section">
+                    <h4>School Information</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sekyere East, Ashanti Region, Ghana</p>
+                    <p><i class="fas fa-users"></i> 150 Students (Primary & JHS)</p>
+                    <p><i class="fas fa-graduation-cap"></i> Community School</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Mission</h4>
+                    <p>To provide quality education and nurture the potential of every child in our community, preparing them for success in an ever-changing world.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Naama Saviour School. Educating minds, building futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
