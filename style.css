@@ -82,7 +82,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('images/group_1.jpg') no-repeat center center/cover;
+    background: url('group_1.jpg') no-repeat center center/cover;
     padding: 0 20px;
     color: white;
     position: relative;
@@ -659,3 +659,4 @@ body {
         transform: translateY(0);
     }
 }
+
